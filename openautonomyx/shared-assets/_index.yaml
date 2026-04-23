@@ -1,0 +1,13 @@
+repo: shared-assets
+version: 1
+sections:
+  - path: templates/
+    purpose: reusable document and config templates
+  - path: schemas/
+    purpose: shared validation and metadata schemas
+  - path: examples/
+    purpose: sample assets and reference usage
+  - path: policies/
+    purpose: governance and policy text
+  - path: design/
+    purpose: design references and guidelines
