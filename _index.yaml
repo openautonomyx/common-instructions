@@ -1,0 +1,27 @@
+repo: common-instructions
+version: 1
+files:
+  root:
+    - README.md
+    - AGENTS.md
+    - _index.yaml
+  boilerplates:
+    - boilerplates/codex-boilerplate.md
+  review:
+    - review/review-prompt.md
+  docs:
+    - docs/docs-prompt.md
+  audit:
+    - audit/repo-audit-prompt.md
+  agents:
+    - agents/architect-agent.md
+    - agents/repo-builder-agent.md
+    - agents/docs-agent.md
+    - agents/reviewer-agent.md
+  validators:
+    - validators/decision-principle-validator.md
+    - validators/execution-review-template.md
+  repo_prompts:
+    - repo-prompts/fresh-start-common-instructions.md
+  reviews:
+    - reviews/fresh-start-common-instructions-review.md
