@@ -1,2 +1,0 @@
-# adrs
-Architecture decision records.

@@ -1,2 +1,0 @@
-# architecture
-Org architecture documentation.
