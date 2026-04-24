@@ -83,3 +83,4 @@ Shared instruction layer for `openautonomyx` repositories.
 - UI quality: functional testing, usability testing, UX review
 - Issue tracking and auto-assignment governance
 - Reviewer chooses best available LLM for subagent assignment
+- Mandatory pre-production demo with HITL sign-off before production push

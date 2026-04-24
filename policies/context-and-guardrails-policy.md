@@ -51,3 +51,8 @@ Define strict context management and guardrail behavior so agents stay accurate,
 - Auto-assignment rules must be deterministic and auditable.
 - Prevent unowned issues; enforce owner assignment at creation time.
 - Escalate stale issues based on SLA breach thresholds.
+
+## Pre-production demo gate
+- Before production deployment, run a mandatory demo of critical flows.
+- Require HITL approval event with approver ID, timestamp, and trace ID.
+- Block production push if demo evidence or HITL approval is missing.

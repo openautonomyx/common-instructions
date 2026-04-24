@@ -31,6 +31,7 @@ Each product repo must contain:
 - Production deploys are CI/CD-only.
 - No direct/manual production server deploys.
 - Required gates: tests, vulnerability scan, smoke test, critical-path E2E.
+- Mandatory pre-production demo with HITL sign-off before production push.
 
 ## 6) Registry-first policy
 - Resolve model/skill/prompt/service-image from registry first.
