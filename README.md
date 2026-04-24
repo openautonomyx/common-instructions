@@ -66,6 +66,8 @@ Shared instruction layer for `openautonomyx` repositories.
 - `policies/context-and-guardrails-policy.md`
 - `policies/test-and-process-improvement-policy.md`
 - `policies/airgapped-operation-policy.md`
+- `policies/policy-skill-decision-intelligence.md`
+- `policies/policy-skill-decision-intelligence.pdf`
 
 ## Commercial
 - `PRODUCT_OFFERING.md`
