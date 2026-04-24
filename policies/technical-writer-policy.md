@@ -31,3 +31,7 @@ Deliver clear, accurate, implementation-aligned documentation as canonical sourc
 2. Create explicit improvement actions with owner and due status.
 3. Update writing patterns/templates based on repeated issues.
 4. Feed reusable improvements into shared standards and agent prompts.
+
+## Memory and context loop
+- Preserve decision memory across document revisions (why a decision was made, not just what changed).
+- Keep context state current (scope, audience, assumptions, open questions) for each document.

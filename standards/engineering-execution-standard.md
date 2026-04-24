@@ -61,3 +61,8 @@ Every review/action event must include:
 - Every agent must run a feedback/self-improvement loop after major execution cycles.
 - For design work, include a UI-improvement loop based on implementation and user feedback.
 - Convert repeated issues into enforceable checks in standards/policies.
+
+## 11) Memory and context loops
+- Maintain a memory loop: capture durable lessons, decisions, and recurring fixes after each major cycle.
+- Maintain a context loop: update active context state (priorities, blockers, assumptions, identifiers) continuously.
+- Reuse existing memory/context before asking for repeated inputs.

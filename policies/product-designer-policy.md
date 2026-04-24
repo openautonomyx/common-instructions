@@ -29,3 +29,7 @@ Produce usable, implementation-ready design artifacts aligned with product goals
 2. Track recurring UX/UI issues and convert them into standard design checks.
 3. Apply improvements to future design artifacts and handoff templates.
 4. Upstream reusable design-quality rules into shared standards.
+
+## Memory and context loop
+- Preserve design rationale memory across iterations.
+- Keep context state current (user goals, constraints, scenarios, known friction) for each design cycle.
