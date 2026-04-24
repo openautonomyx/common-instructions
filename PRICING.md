@@ -4,8 +4,8 @@
 
 ### Community
 - Price: `$0`
-- Includes: open-source core code, self-hosting, BYO API key.
-- Excludes: closed-source `common-instructions` bundles, managed improvement loops, premium policy packs, air-gapped support.
+- Includes: open-source core code, self-hosting, BYO API key, limited tools and skills.
+- Excludes: closed-source `common-instructions` bundles, managed improvement loops, premium policy packs, air-gapped support, policy enforcement, and SSO.
 
 ### Pro
 - Price: `$49/month` per workspace.
@@ -42,3 +42,8 @@
 ## Change Control
 - Pricing changes require notice before renewal.
 - New premium capabilities may be added to higher tiers without reducing active-tier entitlements.
+
+## Free Tier Limits
+- Strict cap on number of enabled tools and skills.
+- No policy enforcement engine.
+- No SSO integration.

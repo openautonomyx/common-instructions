@@ -12,6 +12,7 @@
 
 ## Usage Rules
 - Community users can run open-source components without premium update rights.
+- Free tier has capped tool/skill access and does not include policy enforcement or SSO.
 - Paid tiers can access private registries and premium update channels per plan.
 - Air-gapped/offline enterprise bundle is available only on Enterprise tier unless separately contracted.
 - Redistribution of closed-source instruction assets is prohibited without explicit commercial agreement.
