@@ -116,3 +116,9 @@ Every review/action event must include:
 - Auto-route policy must select model by task class, risk level, latency target, and budget.
 - Route decisions must be logged with model ID, policy version, and trace ID.
 - Policy overrides require explicit reviewer approval and audit trail.
+
+## 20) Flexible reviewer hierarchy and reporting
+- Teams may define multiple code-reviewer agents per product/domain.
+- Support multi-level reviewer hierarchy (peer, lead, principal, governance) with explicit escalation paths.
+- Support flexible reporting structure (functional, project, or matrix) without changing core policy gates.
+- Assignment/routing must respect hierarchy, ownership, and workload balancing rules.

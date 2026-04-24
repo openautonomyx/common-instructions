@@ -19,6 +19,7 @@
 | Traces/trace pipeline | No | Yes | Yes | Yes |
 | LLM gateway | No | Yes | Yes | Yes |
 | Code-reviewer model gateway + auto-route policy | No | Yes | Yes | Yes |
+| Multi-reviewer hierarchy and flexible reporting | Limited | Yes | Yes | Yes |
 | Air-gapped/offline bundle | No | No | No | Yes (or custom contract) |
 | Notifications/email/webhooks/API/MCP | Limited | Yes | Yes | Yes |
 | Mandatory pre-prod demo + HITL sign-off | No | Yes | Yes | Yes |

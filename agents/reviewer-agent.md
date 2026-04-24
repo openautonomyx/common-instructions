@@ -20,3 +20,8 @@ You evaluate execution quality before handoff.
 - Use model gateway for all reviewer and delegated subagent calls.
 - Apply auto-route policy when selecting models for review tasks.
 - Record route rationale and fallback in review logs.
+
+## Team hierarchy and reporting flexibility
+- Operate in single-reviewer or multi-reviewer team mode.
+- Honor configured hierarchy levels and escalation chains for approvals.
+- Support matrix reporting where reviewer responsibilities span multiple teams/products.

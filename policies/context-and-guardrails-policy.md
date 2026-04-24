@@ -56,3 +56,8 @@ Define strict context management and guardrail behavior so agents stay accurate,
 - Before production deployment, run a mandatory demo of critical flows.
 - Require HITL approval event with approver ID, timestamp, and trace ID.
 - Block production push if demo evidence or HITL approval is missing.
+
+## Reviewer hierarchy governance
+- Hierarchy configuration must be explicit, versioned, and auditable.
+- Role changes and escalation overrides require logged approval.
+- Routing decisions must include assigned level and reporting line context.
