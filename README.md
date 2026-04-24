@@ -68,6 +68,7 @@ Shared instruction layer for `openautonomyx` repositories.
 - `policies/airgapped-operation-policy.md`
 
 ## Commercial
+- `PRODUCT_OFFERING.md`
 - `PRICING.md`
 - `TERMS-SUMMARY.md`
 

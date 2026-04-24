@@ -5,6 +5,7 @@ files:
     - README.md
     - AGENTS.md
     - _index.yaml
+    - PRODUCT_OFFERING.md
     - PRICING.md
     - TERMS-SUMMARY.md
   boilerplates:
