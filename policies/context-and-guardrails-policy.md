@@ -41,3 +41,8 @@ Define strict context management and guardrail behavior so agents stay accurate,
 - Enforce tool-approval checkpoints before sensitive operations.
 - Use RAG only from approved indexed sources with provenance.
 - Auto-discovery of tools/skills must be registry-scoped and policy-filtered.
+
+## Integration guardrails
+- Notifications/email/webhooks must use approved providers and signed secrets.
+- API and MCP integrations must be authenticated, authorized, and auditable.
+- Webhook and API failures must produce retry-safe events and traceable logs.

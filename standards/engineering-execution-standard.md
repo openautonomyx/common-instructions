@@ -91,3 +91,9 @@ Every review/action event must include:
 - Support tool approval gates before execution of privileged tools.
 - Support RAG-backed retrieval for context enrichment.
 - Support automatic skill and tool discovery via registry-first lookup.
+
+## 16) Integration channels
+- Support outbound notifications and email dispatch for workflow events.
+- Support webhook triggers and webhook callbacks with signature verification.
+- Expose API interfaces for orchestration and status access.
+- Support MCP-based tool integrations for extensible agent operations.

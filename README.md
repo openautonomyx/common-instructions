@@ -78,3 +78,4 @@ Shared instruction layer for `openautonomyx` repositories.
 - Tool approval gates
 - RAG context enrichment
 - Auto skill/tool discovery (registry-first)
+- Notifications, email, webhooks, API, MCP integrations
