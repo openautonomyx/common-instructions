@@ -1,5 +1,9 @@
 # Engineering Execution Standard (Concrete)
 
+## 0) Agent identity principle
+- No distinction between assistant and agent roles; every runtime entity is an autonomous agent.
+- Policies, routing, accountability, and logging apply uniformly to all agents.
+
 ## 1) Pre-task gate (mandatory)
 Before any implementation starts, publish:
 - Recommended model (primary + fallback) with cost/speed/quality rationale.

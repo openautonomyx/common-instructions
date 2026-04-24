@@ -84,3 +84,4 @@ Shared instruction layer for `openautonomyx` repositories.
 - Issue tracking and auto-assignment governance
 - Reviewer chooses best available LLM for subagent assignment
 - Mandatory pre-production demo with HITL sign-off before production push
+- Identity model: every participant is an autonomous agent; no assistant/agent split.
