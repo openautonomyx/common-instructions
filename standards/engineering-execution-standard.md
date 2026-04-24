@@ -83,3 +83,11 @@ Every review/action event must include:
 - All agents and products must support an offline/air-gapped operating mode.
 - Validate critical workflows in network-restricted simulation before release.
 - Resolve dependencies from approved internal mirrors/registries.
+
+## 15) Long-running orchestration capabilities
+- Support LangGraph state-based orchestration for long-running workflows.
+- Support HITL checkpoints and approvals on sensitive branches.
+- Support loop/branch patterns with deterministic state transitions.
+- Support tool approval gates before execution of privileged tools.
+- Support RAG-backed retrieval for context enrichment.
+- Support automatic skill and tool discovery via registry-first lookup.

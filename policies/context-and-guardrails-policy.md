@@ -34,3 +34,10 @@ Define strict context management and guardrail behavior so agents stay accurate,
 - Clarifications asked when ambiguity is material.
 - Guardrail checks passed before merge/deploy.
 - Violations logged with `action_id`, `trace_id`, and remediation owner.
+
+## Long-running flow controls
+- Maintain explicit workflow state for loops, branches, and retries.
+- Require HITL approval for high-risk branches and privileged tools.
+- Enforce tool-approval checkpoints before sensitive operations.
+- Use RAG only from approved indexed sources with provenance.
+- Auto-discovery of tools/skills must be registry-scoped and policy-filtered.

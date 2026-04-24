@@ -70,3 +70,11 @@ Shared instruction layer for `openautonomyx` repositories.
 ## Commercial
 - `PRICING.md`
 - `TERMS-SUMMARY.md`
+
+## Long-running orchestration
+- LangGraph states
+- HITL checkpoints
+- Loop/branch flows
+- Tool approval gates
+- RAG context enrichment
+- Auto skill/tool discovery (registry-first)
