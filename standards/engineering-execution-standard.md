@@ -126,3 +126,9 @@ Every review/action event must include:
 - Support multi-level reviewer hierarchy (peer, lead, principal, governance) with explicit escalation paths.
 - Support flexible reporting structure (functional, project, or matrix) without changing core policy gates.
 - Assignment/routing must respect hierarchy, ownership, and workload balancing rules.
+
+## 21) Production repo protection and reviewer control
+- Production-deployed repositories are protected assets and cannot be modified without code-reviewer approval.
+- Any PR targeting production-deployed repos requires explicit code-reviewer approval before merge.
+- Merge is blocked unless HITL approval is recorded with approver ID, timestamp, and trace ID.
+- Emergency override path must be auditable and post-incident review is mandatory.

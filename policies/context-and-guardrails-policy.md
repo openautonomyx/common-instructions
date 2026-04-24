@@ -61,3 +61,9 @@ Define strict context management and guardrail behavior so agents stay accurate,
 - Hierarchy configuration must be explicit, versioned, and auditable.
 - Role changes and escalation overrides require logged approval.
 - Routing decisions must include assigned level and reporting line context.
+
+## Production repo change control
+- Enforce branch protection and required reviewer checks for production-deployed repos.
+- Reject direct pushes to protected branches for production repositories.
+- Require code-reviewer approval + HITL approval event before merge.
+- Store approval evidence in decision logs and release trace records.

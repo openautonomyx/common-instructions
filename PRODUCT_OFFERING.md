@@ -23,6 +23,7 @@
 | Air-gapped/offline bundle | No | No | No | Yes (or custom contract) |
 | Notifications/email/webhooks/API/MCP | Limited | Yes | Yes | Yes |
 | Mandatory pre-prod demo + HITL sign-off | No | Yes | Yes | Yes |
+| Production repo protection (reviewer + HITL required) | No | Yes | Yes | Yes |
 | Support | Community | Email | Priority + SLA | Dedicated + SLA |
 
 ## Pricing
