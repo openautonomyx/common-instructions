@@ -5,7 +5,7 @@
 ### Community
 - Price: `$0`
 - Includes: open-source core code, self-hosting, BYO API key, limited tools and skills.
-- Excludes: closed-source `common-instructions` bundles, managed improvement loops, premium policy packs, air-gapped support, policy enforcement, and SSO.
+- Excludes: closed-source `common-instructions` bundles, managed improvement loops, premium policy packs, air-gapped support, policy enforcement, and SSO, traces, and LLM gateway.
 
 ### Pro
 - Price: `$49/month` per workspace.
@@ -25,6 +25,7 @@
 - Open-source code remains public.
 - `common-instructions` and improvement loops are private and subscription-gated.
 - Air-gapped operation support is premium and Enterprise-gated.
+- Trace pipeline and LLM gateway are premium capabilities.
 - Feature and update entitlements are tier-based.
 - Entitlements are version-channel scoped (for example: `stable`, `weekly`, `custom`).
 
@@ -47,3 +48,5 @@
 - Strict cap on number of enabled tools and skills.
 - No policy enforcement engine.
 - No SSO integration.
+- No traces/trace pipeline.
+- No LLM gateway access.
