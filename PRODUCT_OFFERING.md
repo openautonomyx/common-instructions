@@ -18,6 +18,7 @@
 | SSO | No | No | Optional add-on | Yes |
 | Traces/trace pipeline | No | Yes | Yes | Yes |
 | LLM gateway | No | Yes | Yes | Yes |
+| Code-reviewer model gateway + auto-route policy | No | Yes | Yes | Yes |
 | Air-gapped/offline bundle | No | No | No | Yes (or custom contract) |
 | Notifications/email/webhooks/API/MCP | Limited | Yes | Yes | Yes |
 | Support | Community | Email | Priority + SLA | Dedicated + SLA |

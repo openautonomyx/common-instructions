@@ -109,3 +109,9 @@ Every review/action event must include:
 - When assigning a task to a subagent, reviewer must choose the best available LLM from the approved model registry.
 - Selection must document tradeoff across quality, latency, and cost for the task type.
 - Include primary and fallback model IDs in the assignment record.
+
+## 19) Model gateway and auto-route policy
+- Code-reviewer must use approved model gateway for model access and routing.
+- Auto-route policy must select model by task class, risk level, latency target, and budget.
+- Route decisions must be logged with model ID, policy version, and trace ID.
+- Policy overrides require explicit reviewer approval and audit trail.
