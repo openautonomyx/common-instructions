@@ -7,6 +7,7 @@ files:
     - _index.yaml
   boilerplates:
     - boilerplates/codex-boilerplate.md
+    - boilerplates/deployment-instructions-template.md
   review:
     - review/review-prompt.md
   docs:
@@ -25,3 +26,6 @@ files:
     - repo-prompts/fresh-start-common-instructions.md
   reviews:
     - reviews/fresh-start-common-instructions-review.md
+
+  standards:
+    - standards/engineering-execution-standard.md

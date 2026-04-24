@@ -17,3 +17,7 @@ This repo contains shared instruction artifacts used across org repositories.
 - Use explicit boundaries (`in-scope` and `out-of-scope`) in prompt files.
 - Keep templates concise and execution-oriented.
 - Avoid platform-specific assumptions unless a file is explicitly marked for that platform.
+
+
+## Concrete standards reference
+Use `standards/engineering-execution-standard.md` as the default enforcement baseline for execution.

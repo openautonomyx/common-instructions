@@ -30,7 +30,7 @@ Shared instruction layer for `openautonomyx` repositories.
 
 ## Repository layout
 
-- `boilerplates/` reusable base prompt boilerplates
+- `boilerplates/` reusable base prompt boilerplates (execution + deployment templates)
 - `review/` review prompt assets
 - `docs/` documentation prompt assets
 - `audit/` audit prompt assets
@@ -45,3 +45,12 @@ Shared instruction layer for `openautonomyx` repositories.
 - Prefer small, composable prompt files.
 - Update `_index.yaml` whenever files are added/removed.
 - Record execution deltas and follow-ups in `reviews/`.
+
+## Key boilerplates
+
+- `boilerplates/codex-boilerplate.md`
+- `boilerplates/deployment-instructions-template.md`
+
+
+## Standards
+- `standards/engineering-execution-standard.md`
