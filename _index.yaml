@@ -15,6 +15,10 @@ files:
   audit:
     - audit/repo-audit-prompt.md
   agents:
+    - agents/product-designer-agent.md
+    - agents/technical-writer-agent.md
+    - agents/design-agent.md
+    - agents/document-agent.md
     - agents/architect-agent.md
     - agents/repo-builder-agent.md
     - agents/docs-agent.md

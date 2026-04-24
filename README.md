@@ -54,3 +54,11 @@ Shared instruction layer for `openautonomyx` repositories.
 
 ## Standards
 - `standards/engineering-execution-standard.md`
+
+
+## Agent presets
+- `agents/document-agent.md`
+- `agents/design-agent.md`
+
+- `agents/technical-writer-agent.md`
+- `agents/product-designer-agent.md`
