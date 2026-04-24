@@ -5,6 +5,8 @@ files:
     - README.md
     - AGENTS.md
     - _index.yaml
+    - PRICING.md
+    - TERMS-SUMMARY.md
   boilerplates:
     - boilerplates/codex-boilerplate.md
     - boilerplates/deployment-instructions-template.md
