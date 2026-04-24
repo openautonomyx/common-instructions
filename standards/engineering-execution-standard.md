@@ -77,6 +77,7 @@ Every review/action event must include:
 ## 13) Testing and process improvement
 - Improve test suites continuously across unit/integration/smoke/E2E layers.
 - Include negative, boundary, regression, and recovery scenarios.
+- Include usability testing, functional testing, and UX review before release for UI-facing products.
 - Run post-release process reviews and convert repeated failures into automated checks.
 
 ## 14) Air-gapped readiness

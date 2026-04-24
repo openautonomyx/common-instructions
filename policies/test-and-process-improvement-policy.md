@@ -24,3 +24,9 @@ Improve delivery reliability by raising baseline test quality and continuously i
 - Store test plans/results with version and date.
 - Link each release to test evidence and risk sign-off.
 - Record process actions with unique IDs and trace IDs.
+
+## UI quality validation
+- Functional testing: validate core user journeys, edge cases, and error handling.
+- Usability testing: validate task success rate, time-to-complete, and friction points with representative users.
+- UX review: run structured design/interaction review before release and track remediation actions.
+- UI releases require evidence for functional + usability + UX review gates.
