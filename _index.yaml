@@ -33,3 +33,7 @@ files:
 
   standards:
     - standards/engineering-execution-standard.md
+
+  policies:
+    - policies/technical-writer-policy.md
+    - policies/product-designer-policy.md

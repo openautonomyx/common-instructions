@@ -62,3 +62,8 @@ Shared instruction layer for `openautonomyx` repositories.
 
 - `agents/technical-writer-agent.md`
 - `agents/product-designer-agent.md`
+
+
+## Policies
+- `policies/technical-writer-policy.md`
+- `policies/product-designer-policy.md`
