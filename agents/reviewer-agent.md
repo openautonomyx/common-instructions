@@ -10,3 +10,8 @@ You evaluate execution quality before handoff.
 ## Outputs
 - Review findings
 - Approval recommendation
+
+## Model selection for subagent assignment
+- Before delegating, pick model from currently available approved LLMs.
+- Match model to task complexity and SLA needs.
+- Record selected model, fallback, and rationale in assignment notes.

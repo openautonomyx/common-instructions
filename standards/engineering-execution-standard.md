@@ -104,3 +104,8 @@ Every review/action event must include:
 - Auto-assign issues by domain ownership, component mapping, and current load.
 - Every issue must have owner, priority, SLA target, and trace link.
 - Reassignment requires explicit audit event and rationale.
+
+## 18) Reviewer-driven model selection for delegation
+- When assigning a task to a subagent, reviewer must choose the best available LLM from the approved model registry.
+- Selection must document tradeoff across quality, latency, and cost for the task type.
+- Include primary and fallback model IDs in the assignment record.

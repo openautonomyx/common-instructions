@@ -82,3 +82,4 @@ Shared instruction layer for `openautonomyx` repositories.
 - Notifications, email, webhooks, API, MCP integrations
 - UI quality: functional testing, usability testing, UX review
 - Issue tracking and auto-assignment governance
+- Reviewer chooses best available LLM for subagent assignment
