@@ -51,19 +51,18 @@ Shared instruction layer for `openautonomyx` repositories.
 - `boilerplates/codex-boilerplate.md`
 - `boilerplates/deployment-instructions-template.md`
 
-
 ## Standards
 - `standards/engineering-execution-standard.md`
-
 
 ## Agent presets
 - `agents/document-agent.md`
 - `agents/design-agent.md`
-
 - `agents/technical-writer-agent.md`
 - `agents/product-designer-agent.md`
-
 
 ## Policies
 - `policies/technical-writer-policy.md`
 - `policies/product-designer-policy.md`
+- `policies/context-and-guardrails-policy.md`
+- `policies/test-and-process-improvement-policy.md`
+- `policies/airgapped-operation-policy.md`

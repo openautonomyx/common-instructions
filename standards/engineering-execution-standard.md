@@ -66,3 +66,20 @@ Every review/action event must include:
 - Maintain a memory loop: capture durable lessons, decisions, and recurring fixes after each major cycle.
 - Maintain a context loop: update active context state (priorities, blockers, assumptions, identifiers) continuously.
 - Reuse existing memory/context before asking for repeated inputs.
+
+## 12) Guardrails and dynamic context
+- Enforce single active task context with explicit state and priority.
+- Prefer clarification over guessing when ambiguity is material.
+- Apply guardrail checks before risky actions and before merge/deploy.
+- Keep context snapshots current at each task transition.
+- Expand or shrink context window deliberately based on complexity and risk.
+
+## 13) Testing and process improvement
+- Improve test suites continuously across unit/integration/smoke/E2E layers.
+- Include negative, boundary, regression, and recovery scenarios.
+- Run post-release process reviews and convert repeated failures into automated checks.
+
+## 14) Air-gapped readiness
+- All agents and products must support an offline/air-gapped operating mode.
+- Validate critical workflows in network-restricted simulation before release.
+- Resolve dependencies from approved internal mirrors/registries.

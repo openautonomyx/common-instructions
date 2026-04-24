@@ -18,6 +18,9 @@ This repo contains shared instruction artifacts used across org repositories.
 - Keep templates concise and execution-oriented.
 - Avoid platform-specific assumptions unless a file is explicitly marked for that platform.
 
-
 ## Concrete standards reference
 Use `standards/engineering-execution-standard.md` as the default enforcement baseline for execution.
+
+## Additional enforcement policies
+Also enforce `policies/context-and-guardrails-policy.md` and `policies/test-and-process-improvement-policy.md` for context discipline, dynamic context expansion, guardrails, testing, and process improvement.
+Enforce `policies/airgapped-operation-policy.md` for offline/air-gapped readiness across all agents.
