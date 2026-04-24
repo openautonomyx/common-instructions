@@ -80,3 +80,4 @@ Shared instruction layer for `openautonomyx` repositories.
 - Auto skill/tool discovery (registry-first)
 - Notifications, email, webhooks, API, MCP integrations
 - UI quality: functional testing, usability testing, UX review
+- Issue tracking and auto-assignment governance

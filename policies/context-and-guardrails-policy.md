@@ -46,3 +46,8 @@ Define strict context management and guardrail behavior so agents stay accurate,
 - Notifications/email/webhooks must use approved providers and signed secrets.
 - API and MCP integrations must be authenticated, authorized, and auditable.
 - Webhook and API failures must produce retry-safe events and traceable logs.
+
+## Issue governance
+- Auto-assignment rules must be deterministic and auditable.
+- Prevent unowned issues; enforce owner assignment at creation time.
+- Escalate stale issues based on SLA breach thresholds.

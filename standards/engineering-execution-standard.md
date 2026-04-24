@@ -98,3 +98,9 @@ Every review/action event must include:
 - Support webhook triggers and webhook callbacks with signature verification.
 - Expose API interfaces for orchestration and status access.
 - Support MCP-based tool integrations for extensible agent operations.
+
+## 17) Issue tracking and auto-assignment
+- Track all work as issues/tasks with unique IDs and current state.
+- Auto-assign issues by domain ownership, component mapping, and current load.
+- Every issue must have owner, priority, SLA target, and trace link.
+- Reassignment requires explicit audit event and rationale.
