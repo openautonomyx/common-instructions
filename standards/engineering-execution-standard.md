@@ -56,3 +56,8 @@ Every review/action event must include:
 - `code-reviewer`: reviews PRD/HLD/LLD/code.
 - `code-tester`: validates docs + testing outcomes.
 - Reviews must include teaching-oriented feedback for subagent improvement.
+
+## 10) Continuous improvement loops
+- Every agent must run a feedback/self-improvement loop after major execution cycles.
+- For design work, include a UI-improvement loop based on implementation and user feedback.
+- Convert repeated issues into enforceable checks in standards/policies.

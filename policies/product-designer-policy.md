@@ -23,3 +23,9 @@ Produce usable, implementation-ready design artifacts aligned with product goals
 ## Collaboration protocol
 - Hand off structured design notes to technical-writer for canonical documentation.
 - Keep repo references updated for source files and exports.
+
+## Feedback and UI-improvement loop
+1. After each design cycle, collect implementation and user feedback.
+2. Track recurring UX/UI issues and convert them into standard design checks.
+3. Apply improvements to future design artifacts and handoff templates.
+4. Upstream reusable design-quality rules into shared standards.

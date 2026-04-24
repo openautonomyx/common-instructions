@@ -25,3 +25,9 @@ Deliver clear, accurate, implementation-aligned documentation as canonical sourc
 ## Collaboration protocol
 - Accept design inputs from product-designer outputs.
 - Normalize external-tool content into repository markdown canonical form.
+
+## Feedback and self-improvement loop
+1. After each major document cycle, capture reviewer feedback and user friction points.
+2. Create explicit improvement actions with owner and due status.
+3. Update writing patterns/templates based on repeated issues.
+4. Feed reusable improvements into shared standards and agent prompts.
