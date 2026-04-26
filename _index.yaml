@@ -46,3 +46,6 @@ files:
     - policies/policy-skill-decision-intelligence.md
     - policies/policy-skill-decision-intelligence.pdf
     - policies/openautonomyx-standards-first-policy.md
+
+  workflows:
+    - .github/workflows/standards-first-policy-check.yml
