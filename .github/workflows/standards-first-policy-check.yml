@@ -1,0 +1,80 @@
+name: Standards First Policy Check
+
+on:
+  workflow_call:
+    inputs:
+      require_custom_extension_section:
+        description: "Require a Custom extensions section in PR body"
+        required: false
+        type: boolean
+        default: true
+      require_validation_section:
+        description: "Require a Validation section in PR body"
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  pull-requests: read
+  contents: read
+
+jobs:
+  standards-first-policy-check:
+    name: standards-first-policy-check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate pull request body
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            if (!pr) {
+              core.info('No pull_request payload found. Skipping.');
+              return;
+            }
+
+            const body = pr.body || '';
+            const failures = [];
+
+            const requiredPhrases = [
+              'Standards-first alignment',
+              'Schema.org',
+              'open standard',
+              'canonical ID',
+              'sameAs',
+              'isBasedOn'
+            ];
+
+            for (const phrase of requiredPhrases) {
+              if (!body.toLowerCase().includes(phrase.toLowerCase())) {
+                failures.push(`PR body is missing standards-first marker: ${phrase}`);
+              }
+            }
+
+            if (${{ inputs.require_custom_extension_section }} && !body.toLowerCase().includes('custom extensions')) {
+              failures.push('PR body must include a Custom extensions section or explicitly say None.');
+            }
+
+            if (${{ inputs.require_validation_section }} && !body.toLowerCase().includes('validation')) {
+              failures.push('PR body must include a Validation section.');
+            }
+
+            const uncheckedCritical = [
+              'I checked whether Schema.org covers the public semantic metadata.',
+              'I checked whether an open standard or mature framework covers this concept before adding custom fields.',
+              'Any new OpenAutonomyX or AgentNxt-specific fields are optional, documented, and justified as true gaps.'
+            ];
+
+            for (const item of uncheckedCritical) {
+              const escaped = item.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+              const checked = new RegExp(`- \\[x\\] ${escaped}`, 'i').test(body);
+              if (!checked) {
+                failures.push(`Required checklist item is not checked: ${item}`);
+              }
+            }
+
+            if (failures.length > 0) {
+              core.setFailed(['Standards-first policy check failed:', ...failures].join('\n- '));
+            } else {
+              core.info('Standards-first policy check passed.');
+            }
